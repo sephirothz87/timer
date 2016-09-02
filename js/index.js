@@ -34,7 +34,7 @@ $(function() {
                     if ($("#checkDialog").is(":checked")) {
                         alert("It's time!");
                     }
-                }, 1)
+                }, 100)
 
                 startTime = 0;
                 endTime = 0;
