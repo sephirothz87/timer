@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="./common/css/cmn_style.css">
+    <link rel="stylesheet" href="./common/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./common/js/common.js"></script>
+    <script src="./common/js/jquery-1.9.0.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+
+<body>
+    <hedder></hedder>
+    <div class="main">
+        <div class="time-input">
+            <input id="hour" type="number" class="form-control input" placeholder="Hour" min="0" max="10"> :
+            <input id="minute" type="number" class="form-control input" placeholder="Minute" min="0" max="59"> :
+            <input id="second" type="number" class="form-control input" placeholder="Second" min="0" max="59">
+        </div>
+        <div class="btn-area">
+            <button type="button" id="btnStart" class="btn btn-default start">Start</button>
+            <button type="button" id="btnReset" class="btn btn-default reset">Reset</button>
+            <br>
+            <div class="alert alert-danger div-alert" role="alert">
+                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </div>
+        </div>
+        <br>
+        <label class="checkbox">
+            <input type="checkbox" id="checkDialog" checked="true">Page Dialog
+        </label>
+        <label class="checkbox">
+            <input type="checkbox" id="checkNotify" checked="true">Windows Notification
+        </label>
+    </div>
+    <footer class="bs-docs-footer">
+        <div>@Zhong Zhicong</div>
+    </footer>
+</body>
+
+</html>
